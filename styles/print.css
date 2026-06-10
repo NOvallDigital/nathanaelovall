@@ -1,4 +1,180 @@
+/*Main Elements*/
 body {
-    width: 8.5in;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 8.5in;
     height: 11in;
+    margin: 0 auto;
+    font-size: 13px;
 }
+
+header {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #163E64;
+    color: white;
+    height: 7%;
+}
+
+.name-nav {
+    float: left;
+    width: 900px;
+    height: 100%;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: normal;
+    text-align: left;
+    margin: 25px 25px 0;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #163E64;
+    font-size: 1.25rem;
+    margin: 15px 0 5px;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+h3 span {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h4 {
+    font-size: .9rem;
+    margin: 0;
+    align-content: center;
+}
+
+nav {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    gap: 25px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+nav ul li.active{
+    border: 1px solid white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 70px;
+    float: right;
+}
+
+.icon p {
+    border: 1px solid white;
+    font-size: 1.75rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    align-content: center;
+}   
+
+section {
+    width: 70%;
+    height: 100%;
+}
+
+section > *{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section p {
+    margin-top: 5px;
+}
+
+section div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+article {
+    background-color: #DCEAF7;
+    width: 30%;
+    height: 93%;
+}
+
+article div {
+    padding: 0 20px;
+}
+
+article div h2 {
+    margin: 15px auto 5px;
+}
+
+article ul {
+    padding-left: 20px;
+    list-style-type: square;
+    margin: 0;
+}
+
+article ul li {
+    margin-bottom: 5px;
+}
+
+.portfolio-link {
+    color: default;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education p {
+    margin: 5px 0;
+}
+
+/*DIVIDERS*/
+hr {
+    display: none;
+    border: 1px solid #90a4b8;
+}
+
+.short-divider { width: 88%; }
+
+.long-divider { width: 95%; }

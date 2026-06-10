@@ -1,0 +1,95 @@
+/* LAPTOPS */
+@media (max-width: 1099.99px) {
+    section { width: 70%; }
+    .long-divider {width: 92%; }
+}
+
+/* TABLETS AND MOBILE LANDSCAPE */
+@media (max-width: 869.99px) {
+    body { flex-direction: column; }
+
+    header {
+        order: 1;
+    }
+
+    section {
+        width: 100%;
+        order: 3;
+    }
+
+    article {
+        width: 100%;
+        order: 2;
+        padding-bottom: 25px;
+    }
+
+    .name-nav {
+        width: 100%;
+    }
+
+    nav {
+        margin: 20px 0 auto 75px;
+    }
+
+    nav ul{
+        justify-content: left;
+    }
+
+    .skills { height: }
+
+    .skills ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .skills ul li {
+        width: 48%;
+    }
+}
+
+/* MOBILE PORTRAIT */
+@media (max-width: 575.98px) {
+    header {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .name-nav {
+        order: 2;
+    }
+
+    nav {
+        margin: 15px auto;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    .icon {
+        order: 1;
+        margin: 20px auto 0;
+        width: auto;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 15px 75px 0;
+    }
+
+    .skills ul {
+        flex-flow: column wrap;
+    }
+
+    .skills ul li {
+        width: 100%;
+    }
+
+    section div {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}

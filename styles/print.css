@@ -169,6 +169,10 @@ article ul li {
     margin: 5px 0;
 }
 
+footer {
+    display: none;
+}
+
 /*DIVIDERS*/
 hr {
     display: none;

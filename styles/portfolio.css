@@ -1,0 +1,41 @@
+.anchor-links {
+    width: 100%;
+}
+
+.anchor-links ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.anchor-links ul li {
+    font-weight: bold;
+    border-bottom: 1px solid #163E64;
+    height: 25px;
+    width: 90px;
+    text-align: center;
+}
+
+.anchor-links ul li a {
+    color: #163E64;
+    text-decoration: none;
+}
+
+article {
+    padding: 0 20px;
+}
+
+article a {
+    margin: 5px 0;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #4a9be7;
+    font-weight: bold;
+}
+
+article p.description{
+    margin: 0 0 15px;
+}

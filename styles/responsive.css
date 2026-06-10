@@ -8,16 +8,12 @@
 @media (max-width: 869.99px) {
     body { flex-direction: column; }
 
-    header {
-        order: 1;
-    }
-
-    section {
+    section.left-side {
         width: 100%;
         order: 3;
     }
 
-    article {
+    article.right-side {
         width: 100%;
         order: 2;
         padding-bottom: 25px;
@@ -43,6 +39,10 @@
 
     .skills ul li {
         width: 48%;
+    }
+
+    footer {
+        order: 4;
     }
 }
 

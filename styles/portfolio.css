@@ -39,3 +39,36 @@ article a {
 article p.description{
     margin: 0 0 15px;
 }
+
+.img-container {
+    margin: 15px 0 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    row-gap: 15px;
+}
+
+.pdf-container ul {
+    padding-left: 30px;
+}
+
+.pdf-container ul li {
+    margin: 5px 0;
+}
+
+#graphics .img-container img {
+    max-width: 330px;
+    max-height: 130px;
+    object-fit: contain;
+}
+
+#prints .img-container img {
+    max-width: 280px;
+    height: auto;
+    object-fit: contain;
+}
+
+#personal .img-container img {
+    max-width: 330px;
+    object-fit: contain;
+}
